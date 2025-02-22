@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class StreamMix {
-    public static <T> Stream<T> zip(Stream<T> first, Stream<T> second) {
+    public static <T> Stream<T> zip(Stream<T> first, Stream<T> second){
         Iterator<T> firstIterator = first.iterator();
         Iterator<T> secondIterator = second.iterator();
         return Stream.iterate(0, i -> i + 1)
