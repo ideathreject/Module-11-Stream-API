@@ -32,5 +32,6 @@ public class Main {
         StreamMix.zip(cities, numbers).forEach(System.out::println);
 
 
+
     }
 }
